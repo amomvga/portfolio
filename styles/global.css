@@ -1,0 +1,91 @@
+#particles-js {
+  background: rgb(31, 31, 31);
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+.particles-js-canvas-el {
+  background: rgb(15, 15, 15);
+  position: absolute;
+  z-index: -1;
+}
+
+#body {
+    color: rgb(226, 226, 226);
+}
+
+#body h1 {
+    padding-top: 10rem !important;
+    font-size: 3rem;
+}
+
+#body img {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    border: solid 2px whitesmoke;
+}
+
+#body svg {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    transition: 90ms;
+}
+
+#body svg:hover {
+    color: rgb(0, 76, 97);
+}
+
+#body a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#about {
+    background: white;
+    color: black;
+}
+
+#about h5 {
+    font-weight: 750;
+    margin-top: 90px;
+    color: rgb(45, 45, 255);
+}
+
+#about p {
+    font-weight: 500;
+    font-size: large;
+}
+
+#about button {
+    background-color: rgb(0, 35, 46);
+    border: none;
+    color: whitesmoke;
+    padding: 15px;
+    border-radius: 15px;
+    cursor: default;
+    transition: 1s;
+}
+
+#about button:hover {
+    background-color: rgb(0, 76, 97);
+}
+
+#about form {
+    cursor: default;
+}
+
+#portfolio {
+    background-color: rgb(245, 245, 245);
+}
+
+#portfolio h5 {
+    font-weight: 750;
+    color: rgb(45, 45, 255);
+}
+
+#portfolio img {
+    width: 350px;
+}
